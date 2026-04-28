@@ -1,0 +1,26 @@
+# ── Backend (FastAPI) ─────────────────────────────────────────
+fastapi>=0.111
+uvicorn[standard]>=0.29
+psycopg2-binary>=2.9
+python-dotenv>=1.0
+
+# ── Frontend (Streamlit) ──────────────────────────────────────
+streamlit>=1.33
+plotly>=5.20
+pandas>=2.2
+requests>=2.31         # dashboard → backend HTTP calls
+
+# ── Compiler ──────────────────────────────────────────────────
+# (pure Python, no extra deps)
+
+# ── Automata ──────────────────────────────────────────────────
+transitions>=0.9
+
+# ── AI module (Groq via OpenAI SDK) ───────────────────────────
+openai>=1.30
+
+# ── Visualization ─────────────────────────────────────────────
+graphviz>=0.20
+
+# ── Data generation (simulator only) ─────────────────────────
+faker>=24.0
